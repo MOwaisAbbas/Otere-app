@@ -1,5 +1,84 @@
+@font-face {
+  font-family: Gilroy;
+  src: url("./fonts/Gilroy-Font/Gilroy-Medium.woff");
+}
 
+:root {
+  --primary: #75bf7a;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "gilroy";
+  box-sizing: border-box;
+}
 
-*{
-    font-family: "Gilroy" , sans-serif;
+main {
+  background-color: #f9f9f9;
+}
+.pg-1 {
+  height: 100vh;
+  max-width: 1650px;
+}
+.pg-1 > header {
+  /* border: 1px solid red; */
+  height: 7rem;
+}
+.nav-items {
+  /* border: 1px solid blue; */
+  width: 40%;
+}
+.nav-items ul {
+  margin: 0;
+  list-style-type: none;
+  width: 70%;
+}
+.nav-items ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.nav-items button {
+  border: none;
+  outline: none;
+  background-color: var(--primary);
+  border-radius: 5px;
+  color: #ffffff;
+}
+header .logo {
+  /* border: 1px solid pink; */
+  width: 150px;
+}
+header .logo img {
+  width: 100%;
+  object-fit: contain;
+}
+section {
+  /* border: 1px solid red; */
+}
+section img {
+  width: 90%;
+  height: auto;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 4rem;
+}
+.sec-1-p{
+    width: 70%;
+    font-size: 1.3rem;
+}
+.buttons{
+    width: 65%;
+    /* border: 1px solid red; */
+}
+.buttons button{
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 1000;
 }
