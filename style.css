@@ -5,12 +5,16 @@
 
 :root {
   --primary: #75bf7a;
+  --para: #9e9da2;
 }
 * {
   padding: 0;
   margin: 0;
   font-family: "gilroy";
   box-sizing: border-box;
+}
+p {
+  color: var(--para);
 }
 
 main {
@@ -66,19 +70,109 @@ h1 {
   font-weight: bolder;
   font-size: 4rem;
 }
-.sec-1-p{
-    width: 70%;
-    font-size: 1.3rem;
+.sec-1-p {
+  width: 70%;
+  font-size: 1.3rem;
 }
-.buttons{
-    width: 65%;
-    /* border: 1px solid red; */
+.buttons {
+  width: 65%;
+  /* border: 1px solid red; */
 }
-.buttons button{
-    font-size: 1.2rem;
-    border-radius: 5px;
-    background-color: #000000;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 1000;
+.buttons button,
+.section-2 button {
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+.section-2 {
+  background-color: var(--primary);
+  border-radius: 10px;
+  min-height: 150px;
+  max-height: 450px;
+}
+.section-2 p {
+  margin: 0;
+  /* border: 1px solid blue; */
+  width: 45%;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.section-2 .input-sec-2 {
+  width: 25%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+.pg-2 > div h2 {
+  font-size: 3rem;
+  font-weight: 1000;
+  text-align: center;
+}
+.pg-2 > div p {
+  text-align: center;
+  /* border: 1px solid red; */
+  width: 50%;
+  font-size: 1.2rem;
+}
+.tere-clr {
+  color: var(--primary);
+}
+.section-3{
+  /* border: 1px solid red; */
+}
+.section-3 .circle {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-3 img {
+  width: 55px;
+}
+.section-3 h2{
+  font-weight: 1000;
+  font-size: 1.5rem;
+}
+.img-rap {
+  width: fit-content;
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 1000;
+  position: relative;
+  display: grid;
+  place-items: center;
+  /* border: 1px solid magenta; */
+}
+.img-rap img {
+  position: absolute;
+}
+
+
+.circle img {
+  width: 75%;
+  position: absolute;
+}
+.rnd{
+  margin-top: 6rem;
+}
+.rnd > div>div{
+  background-color: #75bf7a80;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+.rnd > div>div:first-child{
+  background-color: var(--primary);
+}
+.part-1 ,.part-2 ,.part-3{
+  /* border: 1px solid red; */
 }
